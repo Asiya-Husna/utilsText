@@ -23,7 +23,7 @@ function Navbar(props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className={`nav-link active text-${props.mode === 'dark' || props.mode === 'danger' ? 'light' : 'dark'}`} aria-current="page" to ="/">
+              <Link className={`nav-link active text-${props.mode === 'dark' || props.mode === 'danger' ? 'light' : 'dark'}`} aria-current="page" to ="/utilsText">
                 Home
               </Link>
             </li>
